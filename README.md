@@ -1,4 +1,15 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/gok0o/spotify-user-segmentation-ml)
+![Stars](https://img.shields.io/github/stars/gok0o/spotify-user-segmentation-ml?style=social)
+
 🎧 Spotify User Segmentation using Unsupervised Learning
+
+```python
+# High-level usage
+# 1) Load data
+# 2) Preprocess & scale
+# 3) Run clustering and PCA
+# 4) Visualize results
+
 
 
 🔍 Problem Statement
