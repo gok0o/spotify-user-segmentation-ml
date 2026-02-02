@@ -1,4 +1,6 @@
 🎧 Spotify User Segmentation using Unsupervised Learning
+
+
 🔍 Problem Statement
 
 Understanding user listening behavior is critical for personalization, retention, and monetization.
@@ -43,6 +45,27 @@ PCA visualization showed clear behavioral separation
 DBSCAN revealed a dominant mainstream cluster and significant irregular users
 
 Hierarchical clustering confirmed the presence of two major behavioral families
+
+## Visualizations
+
+### K-Means + PCA
+![KMeans PCA](images/kmeans+pca.png)
+
+### Dendrogram
+![Dendrogram](images/dendrogram.png)
+
+
+## 📈 Results Summary
+
+- Optimal K determined (Elbow): **3 clusters**
+- PCA explained variance (PC1+PC2): **48%**
+- DBSCAN found:
+  - 1 main cluster with 5982 users
+  - ~1910 noise users
+  - Several small behavior clusters
+
+- Hierarchical confirmed 2 major behavior groups
+
 
 🎯 Key Insights
 
